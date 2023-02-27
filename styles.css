@@ -1,3 +1,73 @@
 body {
     background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+#gameTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 5em ;
+    color: maroon;
+    text-shadow: 3px 3px 3px #000000;
+} 
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.record {
+    height: 200px;
+    width: 200px;
+    background-color: goldenrod;
+    border-radius: 100px;
+    background-image: url(/Project-1-Memory-Match/Memory\ game\ images/Record.jpg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.record:hover {
+    animation: roll 11s infinite;
+}
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(2880deg);
+    }
+}
+
+.record img {
+    opacity: 0;
+}
+
+.record.clicked img, .record.checked img {
+    opacity: 1;
+}
+
+#great-memory {
+        font-size: 8em;
+        color: goldenrod;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        position: absolute;
+        text-align: center;
+        margin: 80px 0 0 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        text-shadow: 3px 3px 3px #000000;
+        opacity: 1;
 }

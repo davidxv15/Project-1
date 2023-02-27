@@ -1,11 +1,19 @@
-User is presented with a game board of identical "cards" 
-facing downwards to conceal their value, which is 
-shared by only one other card.
-User will select one card at a time, revealing it's value
-while attempting to memorize said value and it's position 
+Memory Matcher 
+
+User is presented with a game board of nondescript vinyl records
+outside of their storage sleeves, obscuring their respective album jackets.
+Each album jacket image is shared by only one other record.
+User will select one record at a time, revealing it's jacket's image
+while attempting to memorize said image and it's position 
 on the board.
-User's goal is to select each matching pair of cards in
-succession, until all card values have been selected, 
+User's goal is to select each matching pair of records in
+succession, until all record jackets have been revealed, 
 thus completing play.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FifF1VP3QStBp6t0g2fZcLx%2FMemory-Matcher%3Fnode-id%3D3%253A399%26t%3DWzyztJEKzaWUlB02-1" allowfullscreen></iframe>
+Technoligies used: Javascript, HTML, CSS, PhotoShop.
+
+Screenshot: ![Alt text](Project-1-Memory-Match/Memory%20game%20images/Screenshot.jpg)
+
+Getting started:
+
+Next steps: I plan on creating a bigger board, adding album art as the uncovered image, and music clips from the record that the image is referencing to play when the curser is hovering over each record for a visually impaired user feature. The music clips are necessary for visually impaired feature. 
