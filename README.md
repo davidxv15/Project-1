@@ -12,8 +12,9 @@ thus completing play.
 
 Technoligies used: Javascript, HTML, CSS, PhotoShop.
 
-Screenshot: ![Alt text](Project-1-Memory-Match/Memory%20game%20images/Screenshot.jpg)
+Screenshot: ![Memory Match board](Project-1-Memory-Match/Memory%20game%20images/Screenshot.jpg)
 
-Getting started:
+Getting started: https://github.com/davidxv15/Project-1.git
+                 http://127.0.0.1:5504/index.html
 
-Next steps: I plan on creating a bigger board, adding album art as the uncovered image, and music clips from the record that the image is referencing to play when the curser is hovering over each record for a visually impaired user feature. The music clips are necessary for visually impaired feature. 
+Next steps: Plans for a bigger board, adding album art as the uncovered image, and music clips from the record that the image is referencing to play when the curser is hovering over each record for a visually impaired user feature. The music clips are necessary for visually impaired feature. 
